@@ -2,7 +2,8 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master, 'jammy.*' ]
+    branches:
+      - "**"
     tags:
       - 'v[0-9]+.*'
 
