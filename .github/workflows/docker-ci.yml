@@ -26,6 +26,7 @@ jobs:
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=tag
+            type=ref,event=branch
             type=edge,branch=master
           flavor: |
             latest=auto
