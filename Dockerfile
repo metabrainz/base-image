@@ -1,4 +1,4 @@
-FROM phusion/baseimage:noble-1.0.0
+FROM phusion/baseimage:noble-1.0.2
 
 ARG DEBIAN_FRONTEND=noninteractive
 
