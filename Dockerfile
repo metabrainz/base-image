@@ -1,4 +1,4 @@
-FROM phusion/baseimage:noble-1.0.2
+FROM docker.io/phusion/baseimage:resolute-1.0.22
 
 ARG DEBIAN_FRONTEND=noninteractive
 
